@@ -1,5 +1,3 @@
-// Simple book registration and listing program with fwrite/fread/fseek.
-// This program does not deletes the file content it just sets it to '0' and "" so it doesn't go away, therefore it only uses one file at the time.
 #include <stdio.h>
 int menu (void);
 int clear (void);
