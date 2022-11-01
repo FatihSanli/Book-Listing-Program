@@ -176,7 +176,7 @@ int clear (void) {
     for (int i = 0; i < 100; i++) {
         fwrite(&emptyBook, sizeof(book), 1, file);
     }
-    printf("All books have cleared successfully.\n");
+    printf("All books are cleared successfully.\n");
     fclose(file);
     return 0;
 }
